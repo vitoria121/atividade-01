@@ -1,0 +1,28 @@
+/// QUESTAO 4 ///
+
+public class Post
+{
+    
+    public String texto;
+    public String link;
+    public int numeroCurtidas;
+    public int numeroCompartilhamentos;
+    
+    public String gettexto() {
+        return this.texto;
+        
+    }
+    
+    public String getlink() {
+        return this.link;
+    }
+    
+    public int getnumeroCurtidas() {
+        return this.numeroCurtidas;
+    }
+    
+    public int getnumeroCompartilhamentos() {
+        return this.numeroCompartilhamentos;
+    }
+    
+}
