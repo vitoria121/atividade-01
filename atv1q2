@@ -1,0 +1,44 @@
+/// QUESTAO 2 ///
+
+public class Endereco
+{
+    String rua;
+    String numerocasa;
+    String complemento;
+    String bairro;
+    String cidade;
+    String uf;
+    String cep;
+    
+    public Endereco (String rua, String numerocasa, String complemento, String bairro, String cidade, String uf, String cep) {
+        
+        this.rua = rua;
+        this.numero = numerocasa;
+        this.complemento = complemento;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.uf = uf;
+        this.cep = cep;
+        
+    }
+}
+
+public class Medico 
+{
+    int codigo;
+    String nome;
+    String sexo;
+    String especialidade;
+    String endereco;
+    
+    public Medico (int codigo, String nome, String sexo, String especialidade, String endereco) {
+        
+        this.codigo = codigo;
+        this.nome = nome;
+        this.sexo = sexo;
+        this.especialidade = especialidade;
+        this.endereco = endereco;
+        
+    }
+}
+}
