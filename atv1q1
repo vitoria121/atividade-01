@@ -1,0 +1,20 @@
+public class Paciente
+{
+    int codigo;
+    String nome;
+    String datanasc;
+    String sexo;
+    String psaude;
+    String alergia;
+    String tiposang;
+    
+    public Paciente (int codigo, String nome, String datanasc, String sexo, String psaude, String alergia, String tiposang);
+    this.codigo= codigo;
+    this.nome= nome;
+    this.datanasc= datanasc;
+    this.sexo= sexo;
+    this.psaude= psaude;
+    this.alergia= alergia;
+    this.tiposang= tiposang;
+    
+}
