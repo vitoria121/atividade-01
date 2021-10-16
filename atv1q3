@@ -1,0 +1,27 @@
+/// QUESTAO 3 ///
+
+public class Lutador
+{
+    String nome;
+    String energia;
+    String forca;
+    
+    public Lutador (String nome, String energia, String forca) {
+        
+        this.nome = nome;
+        this.energia = energia;
+        this.forca = forca;
+        
+    }
+    
+    public void aplicarGolpe(String nome) {
+        reduzirEnergia(forca);
+        
+    }
+    
+    public int reduzirEnergia(int forca) {
+        energia = energia - forca;
+        
+        return energia;
+    }
+}
